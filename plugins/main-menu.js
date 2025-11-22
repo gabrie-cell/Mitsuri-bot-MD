@@ -54,8 +54,8 @@ const menuSections = {
     ]
 };
 
-const PREFIX_SYMBOL = '⁖ฺ۟̇࣪·֗٬̤⃟⚡';
-const COMMAND_START = '#'; 
+const PREFIX_SYMBOL = '🌵';
+const COMMAND_START = ''; 
 
 function clockString(ms) {
     if (isNaN(ms)) return '--:--:--';
@@ -122,6 +122,11 @@ let handler = async (m, { conn }) => {
         gifPlayback: true,
         caption: menuText, 
         contextInfo: {
+            externalAdReply: {
+                title: 'Isagi - Bot',
+                body: 'Iagi - menu',
+                mediaType: 1,
+            },
             mentionedJid: [m.sender, userId],
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
