@@ -114,8 +114,8 @@ let handler = async (m, { conn }) => {
 
     const menuText = buildMenuText(metrics);
     
-    // URL del video 👻
-    const videoUrl = 'https://files.catbox.moe/wzf5ms.mp4';
+    // URL del video
+    const videoUrl = 'https://files.catbox.moe/slo1l0.mp4';
     
     await conn.sendMessage(m.chat, {
         video: { url: videoUrl },
@@ -123,9 +123,11 @@ let handler = async (m, { conn }) => {
         caption: menuText, 
         contextInfo: {
             externalAdReply: {
-                title: 'Isagi - Bot',
-                body: 'Iagi - menu',
-                mediaType: 1,
+                title: 'Isagi - Bot', 
+                body: 'Iagi - menu',  
+                thumbnailUrl: 'https://files.catbox.moe/6orur7.jpg',
+                mediaType: 1, 
+
             },
             mentionedJid: [m.sender, userId],
             isForwarded: true,
