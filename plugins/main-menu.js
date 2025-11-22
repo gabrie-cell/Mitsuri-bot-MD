@@ -55,7 +55,6 @@ const menuSections = {
 };
 
 const PREFIX_SYMBOL = '🌵';
-const COMMAND_START = '/'; 
 
 function clockString(ms) {
     if (isNaN(ms)) return '--:--:--';
