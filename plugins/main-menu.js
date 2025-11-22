@@ -145,8 +145,8 @@ let handler = async (m, { conn }) => {
     } else if (images.length > 0) {
         selectedMediaUrl = images[Math.floor(Math.random() * images.length)];
         
-        const channelId = global.channelRD?.id || '120363214532588487@newsletter'; 
-        const channelName = global.channelRD?.name || 'Canal';
+        const channelId = global.canalIdM?.[0] || '120363420590235387@newsletter'; 
+        const channelName = 'Isagi - 𝖡𝗈𝗍';
         
         messageOptions = {
             text: txt,
