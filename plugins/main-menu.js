@@ -115,7 +115,7 @@ let handler = async (m, { conn }) => {
     const menuText = buildMenuText(metrics);
     
     // URL del video
-    const videoUrl = 'https://files.catbox.moe/slo1l0.mp4';
+    const videoUrl = 'https://files.catbox.moe/oakq7t.mp4';
     
     await conn.sendMessage(m.chat, {
         video: { url: videoUrl },
