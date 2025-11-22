@@ -1,5 +1,5 @@
 const menuSections = {
-    '✰ DESCARGAS ✰': [
+    '✦ DESCARGAS ✦': [
         '#facebook + <url>',
         '#play + <texto>',
         '#tiktok + <url>',
@@ -12,13 +12,13 @@ const menuSections = {
         '#anime',
         '#animedl',
     ],
-    '✰ BÚSQUEDAS ✰': [
+    '✦ BÚSQUEDAS ✦': [
         '#pinterest + <texto>',
         '#tiktoksearch + <texto>',
         '#tweetpost',
         '#wikipedia <búsqueda>',
     ],
-    '✰ CONFIGURACIÓN ✰': [
+    '✦ CONFIGURACIÓN ✦': [
         '#antibot',
         '#antidelete',
         '#antilink',
@@ -34,14 +34,14 @@ const menuSections = {
         '#autoresponder',
         '#autosticker',
     ],
-    '✰ GRUPOS ✰': [
+    '✦ GRUPOS ✦': [
         '#promote',
         '#setbye',
         '#setwelcome',
         '#setprimary',
         '#tag',
     ],
-    '✰ TOOLS ✰': [
+    '✦ TOOLS ✦': [
         '#s',
         '#qc',
         '#toimg',
@@ -82,17 +82,17 @@ function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
     return `
 ¡Hola ${name}! Me llamo ${botname} 
 
-╭━━ INFO - BOT ━ 
-┃Tiempo activo: ${uptime}
-┃Registros: ${totalreg}
-┃Comandos: ${totalCommands}
-┃✦ Canal: https://whatsapp.com/channel/0029VbAt0n3It5rv4WOUcH00
-╰━━━━━━━━━━━━━
+╭━━「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 」━━
+┃ 👑 *Activo:* ${uptime}
+┃ 👥 *Usuarios:* ${totalreg}
+┃ 📚 *Comandos:* ${totalCommands}
+┃ 📣 *Canal:* https://whatsapp.com/channel/0029VbAt0n3It5rv4WOUcH00
+╰━━━━━━━━━━━━━━━
 
 ¿Quieres ser un sub bot?
 Utiliza *#qr* ó *#code*
  
-✰ Lista de comandos:
+✦ Lista de comandos:
 ${sectionsText}
 
 > © Powered by Staff Mita Bot
@@ -113,18 +113,15 @@ let handler = async (m, { conn }) => {
     };
 
     const menuText = buildMenuText(metrics);
-
+    
+    // URL del video 👻
+    const videoUrl = 'https://files.catbox.moe/slo1l0.mp4';
+    
     await conn.sendMessage(m.chat, {
-        text: menuText,
+        video: { url: videoUrl },
+        gifPlayback: true,
+        caption: menuText, 
         contextInfo: {
-            externalAdReply: {
-                title: global.canalNombreM?.[0] || 'Isagi - Bot',
-                body: 'Isagi bot',
-                thumbnailUrl: 'https://files.catbox.moe/fba87o.jpg',
-                sourceUrl: 'https://github.com/dev-fedexyzz',
-                mediaType: 1,
-                renderLargerThumbnail: true
-            },
             mentionedJid: [m.sender, userId],
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
