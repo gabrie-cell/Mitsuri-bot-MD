@@ -130,7 +130,7 @@ let handler = async (m, { conn }) => {
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: global.canalIdM?.[0] || '',
-                newsletterName: 'IsagiBot - MD',
+                newsletterName: 'Isagi - MD',
                 serverMessageId: -1
             }
         }
