@@ -100,7 +100,7 @@ const menuSections = {
      '✦ OWNER ✦': [
         '#update',
         '#p',
-        
+        '#creador',
     ],  
      '✦ ANIMES ✦': [
         '#slap  <@mencion>',
