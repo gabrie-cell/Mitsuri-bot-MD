@@ -96,7 +96,12 @@ const menuSections = {
         '#imagedit',
         '#tofigure',
         '#hd',
-    ]
+    ],
+     '✦ OWNER ✦': [
+        '#update',
+        '#p',
+        
+    ]  
 };
 
 let handler = async (m, { conn }) => {
