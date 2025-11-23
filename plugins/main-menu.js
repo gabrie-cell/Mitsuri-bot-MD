@@ -82,7 +82,7 @@ const menuSections = {
     '✦ GRUPOS ✦': [
         '#promote',
         '#demote',
-        '#',
+        '#kicknum',
         '#setprimary',
         '#tag',
     ],
