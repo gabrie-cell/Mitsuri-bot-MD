@@ -18,7 +18,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
 
     try {
         await message.react('⏳️');
-        conn.reply(message.chat, '*Descarado sus videos Espere...*', message, rcanal);
+        conn.reply(message.chat, '*Descargando sus videos Espere...*', message, rcanal);
 
         const { data: response } = await axios.get(`https://delirius-apiofc.vercel.app/search/tiktoksearch?query=${text}`);
         let searchResults = response.meta;
