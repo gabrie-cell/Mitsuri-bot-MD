@@ -9,7 +9,7 @@ TEL;type=CELL;waid=51941247696:+51941247696
 ADR;type=WORK:;;2-chōme-7-5 Fuchūchō;Izumi;Osaka;594-0071;Japan
 URL;type=WORK:https://www.instagram.com/DV G Dx
 X-WA-BIZ-NAME:I S A G I - Ｂｏｔ
-X-WA-BIZ-DESCRIPTION:🄲 𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘣𝘺 𝘋𝘦𝘷-𝘧Dani
+X-WA-BIZ-DESCRIPTION:🄲 𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘣𝘺 𝘋𝘦𝘷-Dani
 X-WA-BIZ-HOURS:Mo-Su 00:00-23:59
 END:VCARD`;
 
@@ -21,7 +21,7 @@ END:VCARD`;
         },
         message: {
             contactMessage: {
-                displayName: "𝘍𝘦𝘥𝘦 𝘜𝘤𝘩𝘪𝘩𝘢",
+                displayName: "Dani papu",
                 vcard,
             },
         },
@@ -31,7 +31,7 @@ END:VCARD`;
         m.chat,
         {
             contacts: {
-                displayName: "𝘍𝘦𝘥𝘦 𝘜𝘤𝘩𝘪𝘩𝘢",
+                displayName: "Dani papu",
                 contacts: [{ vcard }],
             },
             contextInfo: {
