@@ -48,7 +48,7 @@ const menuSections = {
         '#facebook + <url>',
         '#play + <texto>',
         '#tiktok + <url>',
-        '#istagram + <url>',
+        '#instagram + <url>',
         '#',
         '#',
         '#',
