@@ -2,7 +2,7 @@ import axios from 'axios'
 import fetch from 'node-fetch'
 
 const handler = async (m, { conn, text, usedPrefix }) => {
-if (!text) return m.reply("🎶 Por favor, proporciona el nombre de una canción o artista.")
+if (!text) return m.reply("🎶 *Por favor, proporciona el nombre de una canción o artista*.")
 try {
 await m.react('🕒')
 const res = await axios.get(`${global.APIs.adonix.url}/download/spotify?apikey=${global.APIs.adonix.key}&q=${encodeURIComponent(text)}`)
