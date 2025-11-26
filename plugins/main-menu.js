@@ -60,7 +60,7 @@ const menuSections = {
     '✦ BÚSQUEDAS ✦': [
         '#tiktoksearch + <texto>',
         '#pinterest + <texto>',
-        '#',
+        '#google + <texto>',
         '#',
     ],
     '✦ CONFIGURACIÓN ✦': [
