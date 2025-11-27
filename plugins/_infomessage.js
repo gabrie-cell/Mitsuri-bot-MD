@@ -16,7 +16,7 @@ const users = m.messageStubParameters[0]
 const usuario = await resolveLidToRealJid(m?.sender, conn, m?.chat)
 const groupAdmins = participants.filter(p => p.admin)
 
-const channelRD = { id: '120363420231014623@newsletter', name: '🌵◌₊ Sʜᴀᴅᴏᴡ Bᴏᴛ Oғғɪᴄɪᴀʟ ◌❐🌵' }
+const channelRD = { id: '120363420590235387@newsletter', name: '🌵◌₊ Sʜᴀᴅᴏᴡ Bᴏᴛ Oғғɪᴄɪᴀʟ ◌❐🌵' }
 const textbot = 'Notificación de Bot!'
 const icono = 'https://files.catbox.moe/bszv0y.jpg'
 const redes = 'https://github.com/dev-fedexyzz'
