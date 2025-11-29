@@ -1,137 +1,113 @@
-const SECCION_DESCARGAS_TEXTO = `
-⬇️ DESCARGAS ⬇️
-#facebook + <url>
-#play + <texto>
-#tiktok + <url>
-#instagram + <url>
-#mediafire + <url>
-#yts + <texto>
-#mp4 + <url de yt>
-#apk + <texto>
-#spotify + <url>
-#descarga1
-#descarga2
-`;
-
-const SECCION_BUSQUEDAS_TEXTO = `
-🔍 BÚSQUEDAS 🔍
-#tiktoksearch + <texto>
-#pinterest + <texto>
-#google + <texto>
-#buscar4
-`;
-
-const SECCION_CONFIGURACION_TEXTO = `
-⚙️ CONFIGURACIÓN ⚙️
-#antibot
-#antidelete
-#antilink
-#antilink2
-#antiprivado
-#antispam
-#antisubbots
-#antitoxic
-#antitrabas
-#antiver
-#autoaceptar
-#autorechazar
-#autoresponder
-#autosticker
-`;
-
-const SECCION_GRUPOS_TEXTO = `
-👥 GRUPOS 👥
-#promote
-#demote
-#kicknum
-#setprimary
-#tag
-#advertencia
-`;
-
-const SECCION_TOOLS_TEXTO = `
-🛠️ TOOLS 🛠️
-#s
-#qc
-#brat + <texto>
-#p
-#calculadora + <ejemplo 5+7
-#toghibli
-#inspeccionar + <url>
-#wikipedia + <texto>
-#hd
-`;
-
-const SECCION_OWNER_TEXTO = `
-👑 OWNER 👑
-#update
-#p
-#creador
-#banned <@mencion>
-#banlist
-`;
-
-const SECCION_ANIMES_TEXTO = `
-✨ ANIMES ✨
-#slap <@mencion>
-#kill <@mencion>
-#morder <@mencion>
-#bite
-#bañarse
-#enojado
-#angry <@mencion>
-#sonrojarse <@mencion>
-#blush <@mencion>
-#lengua <@mencion>
-#bleh <@mencion>
-#kiss <@mencion>
-#acurrucarse <@mencion>
-#cuddle <@mencion>
-#cry
-#cafe
-#coffee
-#clap <@mencion>
-#bored
-#aburrido
-#llorar <@mencion>
-`;
-
-const SECCION_ECONOMIA_TEXTO = `
-💰 ECONOMIA 💰
-#baltop
-#trabajar
-#minar
-#daily
-#transferir
-#banco
-#inventario
-#rank
-#shop
-#gamble
-#robar
-#apostar
-#lotería
-#retirar
-#semanal
-#robar
-#slut
-#slot
-#ruleta
-#pescar
-#pay
-#depositar
-`;
-
-const menuSections = [
-    SECCION_DESCARGAS_TEXTO,
-    SECCION_BUSQUEDAS_TEXTO,
-    SECCION_CONFIGURACION_TEXTO,
-    SECCION_GRUPOS_TEXTO,
-    SECCION_TOOLS_TEXTO,
-    SECCION_OWNER_TEXTO,
-    SECCION_ANIMES_TEXTO,
-    SECCION_ECONOMIA_TEXTO,
-];
+const menuSections = {
+    '⬇️ DESCARGAS ⬇️': `
+        #facebook + <url>
+        #play + <texto>
+        #tiktok + <url>
+        #instagram + <url>
+        #mediafire + <url>
+        #yts + <texto>
+        #mp4 + <url de yt>
+        #apk + <texto>
+        #spotify + <url>
+        #descarga1
+        #descarga2
+    `,
+    '🔍 BÚSQUEDAS 🔍': `
+        #tiktoksearch + <texto>
+        #pinterest + <texto>
+        #google + <texto>
+        #buscar4
+    `,
+    '⚙️ CONFIGURACIÓN ⚙️': `
+        #antibot
+        #antidelete
+        #antilink
+        #antilink2
+        #antiprivado
+        #antispam
+        #antisubbots
+        #antitoxic
+        #antitrabas
+        #antiver
+        #autoaceptar
+        #autorechazar
+        #autoresponder
+        #autosticker
+    `,
+    '👥 GRUPOS 👥': `
+        #promote
+        #demote
+        #kicknum
+        #setprimary
+        #tag
+        #advertencia
+    `,
+    '🛠️ TOOLS 🛠️': `
+        #s
+        #qc
+        #brat + <texto>
+        #p
+        #calculadora + <ejemplo 5+7
+        #toghibli
+        #inspeccionar + <url>
+        #wikipedia + <texto>
+        #hd
+    `,
+    '👑 OWNER 👑': `
+        #update
+        #p
+        #creador
+        #banned <@mencion>
+        #banlist
+    `,
+    '✨ ANIMES ✨': `
+        #slap <@mencion>
+        #kill <@mencion>
+        #morder <@mencion>
+        #bite
+        #bañarse
+        #enojado
+        #angry <@mencion>
+        #sonrojarse <@mencion>
+        #blush <@mencion>
+        #lengua <@mencion>
+        #bleh <@mencion>
+        #kiss <@mencion>
+        #acurrucarse <@mencion>
+        #cuddle <@mencion>
+        #cry
+        #cafe
+        #coffee
+        #clap <@mencion>
+        #bored
+        #aburrido
+        #llorar <@mencion>
+    `,
+    '💰 ECONOMIA 💰': `
+        #baltop
+        #trabajar
+        #minar
+        #daily
+        #transferir
+        #banco
+        #inventario
+        #rank
+        #shop
+        #gamble
+        #robar
+        #apostar
+        #lotería
+        #retirar
+        #semanal
+        #robar
+        #slut
+        #slot
+        #ruleta
+        #pescar
+        #pay
+        #depositar
+    `,
+};
 
 const PREFIX_SYMBOL = '🌷';
 
@@ -147,28 +123,30 @@ function clockString(ms) {
     return `${pad(h)}h ${pad(m)}m ${pad(s)}s`;
 }
 
-function processSectionText(sectionText) {
-    const lines = sectionText.trim().split('\n').map(line => line.trim());
-    
-    const title = lines[0].trim();
-    
-    const commands = lines.slice(1).filter(cmd => cmd.length > 0);
-
-    const cleanCommands = commands.map(cmd => 
-        cmd.split(' + ')[0].split(' <')[0].trim()
-    );
-
-    const commandsList = cleanCommands
-        .map(cmd => `${PREFIX_SYMBOL}${cmd}`)
-        .join(' | ');
-            
-    return `\n*${title}*\n> ${commandsList}`;
-}
-
 function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
-    const sectionsText = menuSections
-        .map(processSectionText)
-        .join('\n---');
+    const sectionsText = Object.entries(menuSections)
+        .map(([title, commandsString]) => {
+            
+            // CAMBIO IMPORTANTE: Procesamiento de la cadena multilínea
+            const commands = commandsString.trim().split('\n')
+                // Limpia espacios y elimina líneas vacías
+                .map(cmd => cmd.trim()) 
+                .filter(cmd => cmd.length > 0);
+
+            // Limpia los comandos eliminando los parámetros (+ <...>)
+            const cleanCommands = commands.map(cmd => 
+                cmd.split(' + ')[0].split(' <')[0].trim()
+            );
+
+            // Construye la lista de comandos en una sola línea
+            const commandsList = cleanCommands
+                .map(cmd => `${PREFIX_SYMBOL}${cmd}`)
+                .join(' | ');
+            
+            // Retorna el bloque con el título de la sección y los comandos
+            return `\n*${title}*\n> ${commandsList}`;
+        })
+        .join('\n---'); // Separa las secciones con una línea horizontal
 
     return `
 ¡Hola ${name}! Me llamo ${botname}
