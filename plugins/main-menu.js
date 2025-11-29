@@ -1,112 +1,112 @@
 const menuSections = {
-    '✦ DESCARGAS ✦': [
-        '#facebook + <url>',
-        '#play + <texto>',
-        '#tiktok + <url>',
-        '#instagram + <url>',
-        '#mediafire + <url>',
-        '#yts + <texto>',
-        '#mp4 + <url de yt>',
-        '#apk + <texto>',
-        '#spotify + <url>',
-        '#descarga1',
-        '#descarga2',
-    ],
-    '✦ BÚSQUEDAS ✦': [
-        '#tiktoksearch + <texto>',
-        '#pinterest + <texto>',
-        '#google + <texto>',
-        '#buscar4',
-    ],
-    '✦ CONFIGURACIÓN ✦': [
-        '#antibot',
-        '#antidelete',
-        '#antilink',
-        '#antilink2',
-        '#antiprivado',
-        '#antispam',
-        '#antisubbots',
-        '#antitoxic',
-        '#antitrabas',
-        '#antiver',
-        '#autoaceptar',
-        '#autorechazar',
-        '#autoresponder',
-        '#autosticker',
-    ],
-    '✦ GRUPOS ✦': [
-        '#promote',
-        '#demote',
-        '#kicknum',
-        '#setprimary',
-        '#tag',
-        '#advertencia',
-    ],
-    '✦ TOOLS ✦': [
-        '#s',
-        '#qc',
-        '#brat + <texto>',
-        '#p',
-        '#calculadora + <ejemplo 5+7',
-        '#toghibli',
-        '#inspeccionar + <url>',
-        '#wikipedia + <texto>',
-        '#hd',
-    ],
-    '✦ OWNER ✦': [
-        '#update',
-        '#p',
-        '#creador',
-        '#banned <@mencion>',
-        '#banlist',
-    ],
-    '✦ ANIMES ✦': [
-        '#slap <@mencion>',
-        '#kill <@mencion>',
-        '#morder <@mencion>',
-        '#bite',
-        '#bañarse',
-        '#enojado',
-        '#angry <@mencion>',
-        '#sonrojarse <@mencion>',
-        '#blush <@mencion>',
-        '#lengua <@mencion>',
-        '#bleh <@mencion>',
-        '#kiss <@mencion>',
-        '#acurrucarse <@mencion>',
-        '#cuddle <@mencion>',
-        '#cry',
-        '#cafe',
-        '#coffee',
-        '#clap <@mencion>',
-        '#bored',
-        '#aburrido',
-        '#llorar <@mencion>',
-    ],
-    '✦ ECONOMIA ✦': [
-        '#baltop',
-        '#trabajar',
-        '#minar',
-        '#daily',
-        '#transferir',
-        '#banco',
-        '#inventario',
-        '#rank',
-        '#shop',
-        '#gamble',
-        '#robar',
-        '#apostar',
-        '#lotería',
-        '#retirar',
-        '#semanal
-        '#robar
-        '#slut
-        '#slot
-        '#ruleta
-        '#pescar
-        '#pay
-        '#
-    ],
+    '⬇️ DESCARGAS ⬇️': `
+        #facebook + <url>
+        #play + <texto>
+        #tiktok + <url>
+        #instagram + <url>
+        #mediafire + <url>
+        #yts + <texto>
+        #mp4 + <url de yt>
+        #apk + <texto>
+        #spotify + <url>
+        #descarga1
+        #descarga2
+    `,
+    '🔍 BÚSQUEDAS 🔍': `
+        #tiktoksearch + <texto>
+        #pinterest + <texto>
+        #google + <texto>
+        #buscar4
+    `,
+    '⚙️ CONFIGURACIÓN ⚙️': `
+        #antibot
+        #antidelete
+        #antilink
+        #antilink2
+        #antiprivado
+        #antispam
+        #antisubbots
+        #antitoxic
+        #antitrabas
+        #antiver
+        #autoaceptar
+        #autorechazar
+        #autoresponder
+        #autosticker
+    `,
+    '👥 GRUPOS 👥': `
+        #promote
+        #demote
+        #kicknum
+        #setprimary
+        #tag
+        #advertencia
+    `,
+    '🛠️ TOOLS 🛠️': `
+        #s
+        #qc
+        #brat + <texto>
+        #p
+        #calculadora + <ejemplo 5+7
+        #toghibli
+        #inspeccionar + <url>
+        #wikipedia + <texto>
+        #hd
+    `,
+    '👑 OWNER 👑': `
+        #update
+        #p
+        #creador
+        #banned <@mencion>
+        #banlist
+    `,
+    '✨ ANIMES ✨': `
+        #slap <@mencion>
+        #kill <@mencion>
+        #morder <@mencion>
+        #bite
+        #bañarse
+        #enojado
+        #angry <@mencion>
+        #sonrojarse <@mencion>
+        #blush <@mencion>
+        #lengua <@mencion>
+        #bleh <@mencion>
+        #kiss <@mencion>
+        #acurrucarse <@mencion>
+        #cuddle <@mencion>
+        #cry
+        #cafe
+        #coffee
+        #clap <@mencion>
+        #bored
+        #aburrido
+        #llorar <@mencion>
+    `,
+    '💰 ECONOMIA 💰': `
+        #baltop
+        #trabajar
+        #minar
+        #daily
+        #transferir
+        #banco
+        #inventario
+        #rank
+        #shop
+        #gamble
+        #robar
+        #apostar
+        #lotería
+        #retirar
+        #semanal
+        #robar
+        #slut
+        #slot
+        #ruleta
+        #pescar
+        #pay
+        #depositar
+    `,
 };
 
 const PREFIX_SYMBOL = '🌷';
@@ -125,13 +125,23 @@ function clockString(ms) {
 
 function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
     const sectionsText = Object.entries(menuSections)
-        .map(([title, commands]) => {
-            const commandsList = commands
-                .map(cmd => `│${PREFIX_SYMBOL}${cmd}`)
-                .join('\n');
-            return `\n╭─⬣「 ${title} 」⬣\n${commandsList}\n╰─⬣`;
+        .map(([title, commandsString]) => {
+            
+            const commands = commandsString.trim().split('\n')
+                .map(cmd => cmd.trim()) 
+                .filter(cmd => cmd.length > 0);
+
+            const cleanCommands = commands.map(cmd => 
+                cmd.split(' + ')[0].split(' <')[0].trim()
+            );
+
+            const commandsList = cleanCommands
+                .map(cmd => `${PREFIX_SYMBOL}${cmd}`)
+                .join(' | ');
+            
+            return `\n*${title}*\n> ${commandsList}`;
         })
-        .join('\n');
+        .join('\n---');
 
     return `
 ¡Hola ${name}! Me llamo ${botname}
@@ -147,8 +157,10 @@ https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
 ¿*Quieres ser un sub bot?
 Utiliza* *#qr* ó *#code*
 
+---
 ✦ Lista de comandos:
 ${sectionsText}
+---
 
 > © Powered by Staff isagi Bot
 `.trim();
