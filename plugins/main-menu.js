@@ -84,7 +84,7 @@ const menuSections = {
         '#llorar <@mencion>',
     ],
     '✦ ECONOMIA ✦': [
-        '#baltop',
+        '#',
         '#trabajar',
         '#minar',
         '#daily',
@@ -92,7 +92,7 @@ const menuSections = {
         '#banco',
         '#inventario',
         '#balance',
-        '#shop',
+        '#',
         '#mazmorra',
         '#robar',
         '#apostar',
