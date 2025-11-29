@@ -1,48 +1,3 @@
-const PREFIX_SYMBOL = '🌷';
-
-function clockString(ms) {
-    if (isNaN(ms)) return '--:--:--';
-    const totalSeconds = Math.floor(ms / 1000);
-    const h = Math.floor(totalSeconds / 3600) % 24;
-    const m = Math.floor(totalSeconds / 60) % 60;
-    const s = totalSeconds % 60;
-
-    const pad = (num) => String(num).padStart(2, '0');
-
-    return `${pad(h)}h ${pad(m)}m ${pad(s)}s`;
-}
-
-function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
-    const sectionsText = Object.entries(menuSections)
-        .map(([title, commands]) => {
-            const commandsList = commands
-                .map(cmd => `│${PREFIX_SYMBOL}${cmd}`) 
-                .join('\n');
-            return `\n╭─⬣「 ${title} 」⬣\n${commandsList}\n╰─⬣`;
-        })
-        .join('\n');
-
-    return `
-¡Hola ${name}! Me llamo ${botname} 
-
-╭━━「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 」━━
-┃ 👑 *Activo:* ${uptime}
-┃ 👥 *Usuarios:* ${totalreg}
-┃ 📚 *Comandos:* ${totalCommands}
-┃ 📣 *Canal:
-https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
-╰━━━━━━━━━━━━━━━
-
-¿*Quieres ser un sub bot?
-Utiliza* *#qr* ó *#code*
- 
-✦ Lista de comandos:
-${sectionsText}
-
-> © Powered by Staff isagi Bot
-`.trim();
-}
-
 const menuSections = {
     '✦ DESCARGAS ✦': [
         '#facebook + <url>',
@@ -54,14 +9,14 @@ const menuSections = {
         '#mp4 + <url de yt>',
         '#apk + <texto>',
         '#spotify + <url>',
-        '#',
-        '#',
+        '#descarga1',
+        '#descarga2',
     ],
     '✦ BÚSQUEDAS ✦': [
         '#tiktoksearch + <texto>',
         '#pinterest + <texto>',
         '#google + <texto>',
-        '#',
+        '#buscar4',
     ],
     '✦ CONFIGURACIÓN ✦': [
         '#antibot',
@@ -86,8 +41,6 @@ const menuSections = {
         '#setprimary',
         '#tag',
         '#advertencia',
-
-
     ],
     '✦ TOOLS ✦': [
         '#s',
@@ -100,16 +53,16 @@ const menuSections = {
         '#wikipedia + <texto>',
         '#hd',
     ],
-     '✦ OWNER ✦': [
+    '✦ OWNER ✦': [
         '#update',
         '#p',
         '#creador',
         '#banned <@mencion>',
         '#banlist',
-    ],  
-     '✦ ANIMES ✦': [
-        '#slap  <@mencion>',
-        '#kill  <@mencion>',
+    ],
+    '✦ ANIMES ✦': [
+        '#slap <@mencion>',
+        '#kill <@mencion>',
         '#morder <@mencion>',
         '#bite',
         '#bañarse',
@@ -118,34 +71,78 @@ const menuSections = {
         '#sonrojarse <@mencion>',
         '#blush <@mencion>',
         '#lengua <@mencion>',
-        '#bleh  <@mencion>',
+        '#bleh <@mencion>',
         '#kiss <@mencion>',
         '#acurrucarse <@mencion>',
-        '#cuddle  <@mencion>',
+        '#cuddle <@mencion>',
         '#cry',
         '#cafe',
         '#coffee',
-        '#clap  <@mencion>',
+        '#clap <@mencion>',
         '#bored',
         '#aburrido',
-        '#llorar  <@mencion>',
-    ],   
-     '✦ ECONOMIA ✦': [
+        '#llorar <@mencion>',
+    ],
+    '✦ ECONOMIA ✦': [
         '#baltop',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
-        '#',
+        '#trabajar',
+        '#minar',
+        '#daily',
+        '#transferir',
+        '#banco',
+        '#inventario',
+        '#rank',
+        '#shop',
+        '#gamble',
+        '#robar',
+        '#apostar',
+        '#lotería',
+    ],
+};
 
+const PREFIX_SYMBOL = '🌷';
 
+function clockString(ms) {
+    if (isNaN(ms)) return '--:--:--';
+    const totalSeconds = Math.floor(ms / 1000);
+    const h = Math.floor(totalSeconds / 3600) % 24;
+    const m = Math.floor(totalSeconds / 60) % 60;
+    const s = totalSeconds % 60;
+
+    const pad = (num) => String(num).padStart(2, '0');
+
+    return `${pad(h)}h ${pad(m)}m ${pad(s)}s`;
+}
+
+function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
+    const sectionsText = Object.entries(menuSections)
+        .map(([title, commands]) => {
+            const commandsList = commands
+                .map(cmd => `│${PREFIX_SYMBOL}${cmd}`)
+                .join('\n');
+            return `\n╭─⬣「 ${title} 」⬣\n${commandsList}\n╰─⬣`;
+        })
+        .join('\n');
+
+    return `
+¡Hola ${name}! Me llamo ${botname}
+
+╭━━「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 」━━
+┃ 👑 *Activo:* ${uptime}
+┃ 👥 *Usuarios:* ${totalreg}
+┃ 📚 *Comandos:* ${totalCommands}
+┃ 📣 *Canal:
+https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
+╰━━━━━━━━━━━━━━━
+
+¿*Quieres ser un sub bot?
+Utiliza* *#qr* ó *#code*
+
+✦ Lista de comandos:
+${sectionsText}
+
+> © Powered by Staff isagi Bot
+`.trim();
 }
 
 let handler = async (m, { conn }) => {
@@ -162,19 +159,19 @@ let handler = async (m, { conn }) => {
     };
 
     const menuText = buildMenuText(metrics);
-    
+
     const videoUrl = 'https://files.catbox.moe/oakq7t.mp4';
-    
+
     await conn.sendMessage(m.chat, {
         video: { url: videoUrl },
         gifPlayback: true,
-        caption: menuText, 
+        caption: menuText,
         contextInfo: {
             externalAdReply: {
-                title: 'Isagi - Bot', 
+                title: 'Isagi - Bot',
                 body: metrics.botname,
                 thumbnailUrl: 'https://files.catbox.moe/6orur7.jpg',
-                mediaType: 1, 
+                mediaType: 1,
             },
             mentionedJid: [m.sender, userId],
             isForwarded: true,
@@ -188,9 +185,9 @@ let handler = async (m, { conn }) => {
 };
 
 
-handler.help = ['menu']; 
+handler.help = ['menu'];
 handler.tags = ['main'];
-handler.command =  ['menu', 'menú', 'help']; 
-handler.register = true; 
+handler.command = ['menu', 'menú', 'help'];
+handler.register = true;
 
 export default handler;
