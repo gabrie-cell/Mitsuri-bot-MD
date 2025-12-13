@@ -112,9 +112,7 @@ const menuSections = {
         '#formarpareja5,
         '#formarpareja <@mencion>,
         '#doxear <@mencion>,
-        '#top <texto>,
-     
-       
+        '#top <texto>,        
     ],
 };
 
