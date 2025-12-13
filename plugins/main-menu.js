@@ -110,8 +110,8 @@ const menuSections = {
         '#pay',
     '✦ COMANDOS FUN ✦': [
         '#formarpareja5,
-        '#formarpareja <@mencion>,
-        '#doxear <@mencion>,
+        '#formarparejas,
+        '#doxear,
         '#top <texto>,        
     ],
 };
