@@ -4,11 +4,11 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
       text: `
-╔══✦•🌙•✦══╗
+╔══✦•🪷•✦══╗
    Búsqueda de APK  
-╚══✦•🌙•✦══╝
+╚══✦•🪷•✦══╝
 
-⚡ Ingresa el nombre de la aplicación que quieras buscar.  
+💥 *Ingresa el nombre de la aplicación que quieras buscar*.  
 
 📌 Ejemplo:
 ${usedPrefix + command} Facebook Lite
@@ -40,9 +40,9 @@ ${usedPrefix + command} Facebook Lite
       fileName: `${data.appname}.apk`,
       mimetype: 'application/vnd.android.package-archive',
       caption: `
-╔══✦•👻•✦══╗
+╔══✦•💥•✦══╗
    ✅ *APK Descargado*  
-╚══✦•👻•✦══╝
+╚══✦•💥•✦══╝
 
 📱 *Nombre:* ${data.appname}  
 👨‍💻 *Desarrollador:* ${data.developer}  
@@ -57,10 +57,10 @@ ${usedPrefix + command} Facebook Lite
     console.error(e)
     conn.sendMessage(m.chat, { 
       text: `
-╔══✦•💀•✦══╗
+╔══✦•❎•✦══╗
 ❌ Ocurrió un error al descargar  
  Intenta más tarde...  
-╚══✦•💀•✦══╝`
+╚══✦•❎•✦══╝`
     }, { quoted: m })
     await conn.sendMessage(m.chat, { react: { text: "❌", key: m.key } })
   }
