@@ -4,7 +4,7 @@ const handler = async (m, { conn, command, text, isAdmin }) => {
   if (!isAdmin) {
     return conn.reply(
       m.chat,
-      `🎄🗡️ *SOMBRAS SIN PERMISOS SUFICIENTES*\n\n> Solo un administrador puede invocar este poder.\n🔒 Estado actual: *no admin en el Reino*`,
+      `🎄🗡️ *SOMBRAS SIN PERMISOS SUFICIENTES*\n\n> Solo un administrador puede utilizar este poder.\n🔒 Estado actual: *no admin en el grupo*`,
       m
     );
   }
@@ -14,8 +14,8 @@ const handler = async (m, { conn, command, text, isAdmin }) => {
     return conn.reply(
       m.chat,
       command === 'mute'
-        ? '🕯️ *Menciona al discípulo que deseas silenciar en las sombras*'
-        : '🕯️ *Menciona al discípulo que deseas liberar del silencio*',
+        ? '🕯️ *Menciona al miembro que deseas silenciar en el grupo*'
+        : '🕯️ *Menciona al miembro que deseas liberar del silencio*',
       m
     );
   }
@@ -41,7 +41,7 @@ const handler = async (m, { conn, command, text, isAdmin }) => {
     key: { participants: '0@s.whatsapp.net', fromMe: false, id: 'Halo' },
     message: {
       locationMessage: {
-        name: command === 'mute' ? 'Discípulo silenciado por las Sombras 🎄' : '✨ Discípulo liberado del silencio 🎁',
+        name: command === 'mute' ? 'mienbro silenciado por las Sombras 🎄' : '✨ Discípulo liberado del silencio 🎁',
         jpegThumbnail: await (await fetch(
           command === 'mute'
             ? 'https://telegra.ph/file/f8324d9798fa2ed2317bc.png'
