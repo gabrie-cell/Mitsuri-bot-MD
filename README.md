@@ -78,7 +78,7 @@
 </div>
 
 <p align="center">
-<img src="https://files.catbox.moe/dqumh5.jpg" width="400" height="400" alt="Gabriel😼"/>
+<img src="https://files.catbox.moe/dqumh5.jpg" width="400" height="400" alt="Gabriel"/>
 <br>
 <strong>JonathanG</strong>
 </p>
