@@ -18,20 +18,7 @@ const menuSections = {
         '#mercadolibre',
     ],
     '✦ *CONFIGURACIÓN* ✦': [
-        '#antibot',
-        '#antidelete',
         '#antilink',
-        '#antilink2',
-        '#antiprivado',
-        '#antispam',
-        '#antisubbots',
-        '#antitoxic',
-        '#antitrabas',
-        '#antiver',
-        '#autoaceptar',
-        '#autorechazar',
-        '#autoresponder',
-        '#autosticker',
     ],
     '✦ *GRUPOS* ✦': [
         '#promote',
@@ -53,6 +40,7 @@ const menuSections = {
         '#wikipedia + <texto>',
         '#hd',
         '#acertijo',
+        '#syntax',
     ],
     '✦ *OWNER* ✦': [
         '#update',
