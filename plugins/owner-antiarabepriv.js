@@ -1,5 +1,5 @@
 // antiarabepriv.js
-const ownerNumber = "51941658192@lid" // tu número como owner
+const ownerNumber = "51941658192" // tu número como owner
 const arabicPrefixes = ['212', '20', '971', '965', '966', '974', '973', '962']
 
 const handler = async (m, { conn, args }) => {
