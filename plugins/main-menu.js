@@ -148,15 +148,14 @@ function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
         .join('\n');
 
     return `
-¡Hola ${name}! Me llamo ${botname}
+*🌴Hola ${name}! Me llamo ${botname}*
 
 ╭━━「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 」━━
 ┃ 👑 *Activo:* ${uptime}
 ┃ 👥 *Usuarios:* ${totalreg}
 ┃ 📚 *Comandos:* ${totalCommands}
 ┃ 📣 *Canal:
-  *🎅🏻FELIS NAVIDAD Y PRÓSPERO AÑO NUEVO LES DESEA ISAGI YOICHI*
-https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
+https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R*
 ╰━━━━━━━━━━━━━━━
 
 ¿*Quieres ser un sub bot?
