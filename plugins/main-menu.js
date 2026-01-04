@@ -102,7 +102,7 @@ const menuSections = {
         '#pescar',
         '#pay',
     ],
-    '✦ *COMANDOS FUN* ✦': [
+    '🌴 *COMANDOS FUN* 🌴': [
         '#formarpareja5',
         '#formarparejas',
         '#doxear',
@@ -154,8 +154,8 @@ function buildMenuText({ name, botname, uptime, totalreg, totalCommands }) {
 ┃ 👑 *Activo:* ${uptime}
 ┃ 👥 *Usuarios:* ${totalreg}
 ┃ 📚 *Comandos:* ${totalCommands}
-┃ 📣 *Canal:
-https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R*
+┃ 📣 *Canal*:
+https://whatsapp.com/channel/0029Vb6nOKBD8SDp0aFtCD3R
 ╰━━━━━━━━━━━━━━━
 
 *🌴QUIERES SER SUBBOT*
