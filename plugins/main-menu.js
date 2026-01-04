@@ -103,7 +103,7 @@ const menuSections = {
         '#pay',
     ],
     '✦ *COMANDOS FUN* ✦': [
-        '#*formarpareja5',
+        '#formarpareja5',
         '#formarparejas',
         '#doxear',
         '#top <texto>', 
@@ -119,7 +119,7 @@ const menuSections = {
         '#manca <@mencion>',
         '#rata  <@mencion>',
         '#prostituta <@mencion>',
-        '#prostituto <@mencion>*',
+        '#prostituto <@mencion>',
     ],
 };
 
