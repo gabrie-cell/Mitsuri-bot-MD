@@ -72,6 +72,6 @@ await sendFallback('mp4')
 
 handler.help = ['ytmp3doc', 'mp3doc', 'ytmp4doc', 'mp4doc', 'ytadoc', 'ytvdoc']
 handler.tags = ['descargas']
-handler.command = ['ytmp3doc', 'mp3doc', 'ytmp4doc', 'mp4doc', 'ytadoc', 'ytvdoc']
+handler.command = ['ytmp3doc']
 
 export default handler
