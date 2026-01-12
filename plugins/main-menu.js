@@ -14,7 +14,7 @@ let tags = {
   'serbot': '🤖 𝗦𝗨𝗕-𝗕𝗢𝗧𝗦',
   'info': '🌀 𝗜𝗡𝗙𝗢𝗦',
   'main': '📜 𝗠𝗘𝗡𝗨',
-  'nable': '⚡ 𝗠𝗢𝗗𝗢 𝗔𝗩𝗔𝗡𝗭𝗔𝗗𝗢',
+  'descargas': '⚡ DESCARGAS',
   'cmd': '📝 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦',
   'advanced': '🌟 𝗙𝗨𝗡𝗖𝗜𝗢𝗡𝗘𝗦 𝗔𝗩𝗔𝗡𝗭𝗔𝗗𝗔𝗦',
   'game': '🎮 𝗝𝗨𝗘𝗚𝗢𝗦',
