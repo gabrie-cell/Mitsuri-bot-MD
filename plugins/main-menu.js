@@ -5,8 +5,8 @@ import ws from 'ws'
 import { generateWAMessageFromContent, prepareWAMessageMedia } from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
 
-const botname = global.botname || '🌪️ 𝙂𝘼𝘼𝙍𝘼-𝙐𝙇𝙏𝙍𝘼-𝙈𝘿 🌪️'
-const creador = 'https://xzys-ultra.vercel.app'
+const botname = global.botname || '*🌪️ ITACHI BOT 🌴*'
+const creador = 'https://xzys-ul'
 const versionBot = '10.5.0' // cámbiala si tienes otra
 
 // Categorías
@@ -107,7 +107,7 @@ ${comandos.map(menu => menu.help.map(help =>
     }
 
     menuText += `
-> 👑 Powered by leo xzzsy 🥷🏽
+> 👑 Powered by gsbrie-ux 🥷🏽
 `
 
     await m.react('⚡️')
