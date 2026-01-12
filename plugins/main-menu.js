@@ -5,7 +5,7 @@ import ws from 'ws'
 import { generateWAMessageFromContent, prepareWAMessageMedia } from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
 
-const botname = global.botname || '*🌪️ ITACHI BOT 🌴*'
+const botname = global.botname || '🌪️ ITACHI-BOT 🌪️'
 const creador = 'https://xzys-ul'
 const versionBot = '10.5.0' // cámbiala si tienes otra
 
