@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
           newsletterName: channelRD.name
         },
         externalAdReply: {
-          title: '🌸 𝗥𝗢𝗫𝗬 𝗠𝗗 𝗕𝗢𝗧 🌸',
+          title: '🌸 ITACHI MD BOT 🌸',
           body: '© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 𝐷𝑒𝑣𝐵𝑟𝑎𝑦𝑎𝑛',
           mediaUrl: null,
           description: null,
@@ -86,11 +86,11 @@ if (hora >= 5 && hora < 13) {
 }
 
     const body = `
-🎀 Bienvenido a Roxy AI
+*🌿Bienvenido a ITACHI BOT*
 ${saludo}, *${taguser}*!
 ────────────────
-✨ I N F O R M A C I Ó N ✨
-· › 🌺 Nombre del Bot: RoxyBot-MD 
+*✨ I N F O R M A C I Ó N ✨*
+· › *🌺 Nombre del Bot*: Itachibot-MD 
 · › 👤 Nombre de Usuario: *${taguser}*
 · › 🍡 Estado: Gratis
 · › 🍒 *Tiempo en línea* :: *${uptime}*
