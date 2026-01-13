@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     let groupUserCount = m.isGroup ? participants.length : '-'
 
     let perfil = await conn.profilePictureUrl(conn.user.jid, 'image')
-      .catch(() => 'https://files.catbox.moe/9i5o9z.jpg')
+      .catch(() => 'https://files.catbox.moe/ubir65.jpg')
 
     // Preparar el tag del usuario
     const userId = m.sender.split('@')[0]
@@ -60,11 +60,11 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
         },
         externalAdReply: {
           title: '🌸 ITACHI MD BOT 🌸',
-          body: '© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 𝐷𝑒𝑣𝐵𝑟𝑎𝑦𝑎𝑛',
+          body: '© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 𝐷𝑒𝑣gabriel',
           mediaUrl: null,
           description: null,
           previewType: "PHOTO",
-          thumbnailUrl: 'https://files.catbox.moe/9i5o9z.jpg',
+          thumbnailUrl: 'https://files.catbox.moe/ubir65.jpg',
           sourceUrl: 'https://github.com/El-brayan502/RoxyBot-MD/',
           mediaType: 1,
           renderLargerThumbnail: true
