@@ -55,7 +55,7 @@ m.react('✖️');
 };
 
 handler.help = ['tiktoksearch'];
-handler.tag = ['buscador'];
+handler.tag = ['search'];
 handler.command = ['tiktoksearch', 'ttsearch'];
 
 export default handler;
