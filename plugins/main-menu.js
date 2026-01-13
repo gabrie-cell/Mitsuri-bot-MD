@@ -93,13 +93,13 @@ ${commandsForTag.map(menu => menu.help.map(help => `∫➤ ${_p}${help} ${menu.l
 
     // no tocar 
     const imageUrls = [
-      'https://files.catbox.moe/3k9jom.jpg',
-      'https://files.catbox.moe/apuobz.jpg',
-      'https://files.catbox.moe/yqxg6l.jpg'
+      'https://files.catbox.moe/ubir65.jpg',
+      'https://files.catbox.moe/p15coc.jpg',
+      'https://files.catbox.moe/ubir65.jpg'
     ];
     let selectedImage = imageUrls[Math.floor(Math.random() * imageUrls.length)];
 
-    await m.react('🚀');
+    await m.react('🌪️');
     await conn.sendMessage(m.chat, { 
       image: { url: selectedImage }, 
       caption: menuText.trim(), 
