@@ -3,37 +3,14 @@
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'anime': 'ANIME',
   'main': 'INFO',
   'search': 'SEARCH',
-  'game': 'GAME',
-  'serbot': 'SUB BOTS',
   'rpg': 'RPG',
   'sticker': 'STICKER',
   'group': 'GROUPS',
-  'nable': 'ON / OFF',
-  'premium': 'PREMIUM',
   'descargas': 'DOWNLOAD',
   'tools': 'TOOLS',
-  'fun': 'FUN',
-  'nsfw': 'NSFW',
-  'cmd': 'DATABASE',
   'owner': 'OWNER',
-  'audio': 'AUDIOS',
-  'advanced': 'ADVANCED',
-  'weather': 'WEATHER',
-  'news': 'NEWS',
-  'finance': 'FINANCE',
-  'education': 'EDUCATION',
-  'health': 'HEALTH',
-  'entertainment': 'ENTERTAINMENT',
-  'sports': 'SPORTS',
-  'travel': 'TRAVEL',
-  'food': 'FOOD',
-  'shopping': 'SHOPPING',
-  'productivity': 'PRODUCTIVITY',
-  'social': 'SOCIAL',
-  'security': 'SECURITY',
   'custom': 'CUSTOM'
 };
 // no tocar 
