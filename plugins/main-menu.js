@@ -57,6 +57,22 @@ let handler = async (m, { conn, usedPrefix }) => {
 │
 ╰──────────────
       `.trim()
+
+    {
+      image: 'https://raw.githubusercontent.com/El-brayan502/img/upload/uploads/c3043c-1769465597861.jpg',
+      title: 'MENU DOWNLOADER',
+      code: 'MENU-DOWN',
+      text: `
+╭──〔 ⬇️ MENU JADIBOT 〕
+│
+│ ${usedPrefix}tiktok
+│ ${usedPrefix}play
+│ ${usedPrefix}ytmp3
+│
+╰──────────────
+      `.trim()
+    },
+    {
     }
   ]
 
