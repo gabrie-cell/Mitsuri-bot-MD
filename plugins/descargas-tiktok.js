@@ -1,14 +1,14 @@
 import axios from 'axios'
 
 const handler = async (m, { conn, text, usedPrefix }) => {
-if (!text) return conn.reply(m.chat, '❀ Por favor, ingresa un término de búsqueda o el enlace de TikTok.', m)
+if (!text) return conn.reply(m.chat, '*🥷 hoye tu  que deseas buscar en el mundo virtual de tiktok? 🎋*.', m)
 const isUrl = /(?:https:?\/{2})?(?:www\.|vm\.|vt\.|t\.)?tiktok\.com\/([^\s&]+)/gi.test(text)
 try {
-await m.react('🕒')
+await m.react('💻')
 if (isUrl) {
 const res = await axios.get(`https://www.tikwm.com/api/?url=${encodeURIComponent(text)}?hd=1`)
 const data = res.data?.data;
-if (!data?.play) return conn.reply(m.chat, 'ꕥ Enlace inválido o sin contenido descargable.', m)
+if (!data?.play) return conn.reply(m.chat, '*🎋 Nagi no logro encontrar este contenido 🪴*.', m)
 const { title, duration, author, created_at, type, images, music, play } = data
 const caption = createCaption(title, author, duration, created_at)
 if (type === 'image' && Array.isArray(images)) {
