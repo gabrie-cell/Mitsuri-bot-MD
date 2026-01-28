@@ -6,7 +6,7 @@ const API_KEY = "Angxlllll"
 
 const handler = async (m, { conn, args }) => {
   const query = args.join(" ").trim()
-  if (!query) return m.reply("🎶 Ingresa el nombre del video de YouTube.")
+  if (!query) return m.reply("`🌊 En tiempos de búsqueda la descarga es la luz que canción deseas descargar?`.")
 
   await conn.sendMessage(m.chat, {
     react: { text: "🕘", key: m.key }
