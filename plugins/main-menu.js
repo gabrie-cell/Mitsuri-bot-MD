@@ -5,8 +5,8 @@ import ws from 'ws'
 import { generateWAMessageFromContent, prepareWAMessageMedia } from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
 
-const botname = global.botname || '🌪️ 𝙂𝘼𝘼𝙍𝘼-𝙐𝙇𝙏𝙍𝘼-𝙈𝘿 🌪️'
-const creador = 'https://xzys-ultra.vercel.app'
+const botname = global.botname || '🌪️ NAGI-ULTRA-𝙈𝘿 🌪️'
+const creador = 'https://gabriel-rouge.vercel.app/'
 const versionBot = '10.5.0' // cámbiala si tienes otra
 
 // Categorías
@@ -82,7 +82,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
     // Bloque inicial
     let menuText = `
-╭━━━〔 ⚡️ *GAARA-ULTRA-MENU* ⚡️ 〕━━━⬣
+╭━━━〔 ⚡️ *NAGI-ULTRA-MENU* ⚡️ 〕━━━⬣
 ┃ ❒ *Nombre*: *${botname}*
 ┃ ❒ *Creador*: *${creador}*
 ┃ ❒ *Estado*: *${modo}*
@@ -107,7 +107,7 @@ ${comandos.map(menu => menu.help.map(help =>
     }
 
     menuText += `
-> 👑 Powered by leo xzzsy 🥷🏽
+> 👑 Powered by gabriel-ux🥷🏽
 `
 
     await m.react('⚡️')
