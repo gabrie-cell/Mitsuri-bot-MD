@@ -94,10 +94,9 @@ let handler = async (m, { conn, usedPrefix }) => {
       code: 'MENU-JADIBOT',
       text: `
 ╭──〔 🤖 MENU JADIBOT 〕
-│
-│ ${usedPrefix}jadibot
-│ ${usedPrefix}stopjadibot
-│ ${usedPrefix}listjadibot
+│ ${usedPrefix}bots
+│ ${usedPrefix}qr
+│ ${usedPrefix}code
 │
 ╰──────────────
       `.trim()
