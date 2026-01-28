@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 │
 │ ${usedPrefix}tiktok
 │ ${usedPrefix}play
-│ ${usedPrefix}ytmp3
+│ ${usedPrefix}tiktoksearch 
 │
 ╰──────────────
       `.trim()
