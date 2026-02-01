@@ -85,54 +85,6 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 *\`sі 𝗊ᥙіᥱrᥱs ᥴrᥱᥲr ᥙᥒ sᥙᑲᑲ᥆𝗍 ᥙSᥲ\`*
 _#code_
 
-𓂂𓏸  𐅹੭੭   *\`Mᥲіᥒ\`* ☁️ ᦡᦡ
-
-ര ׄ ☁️ ׅ ${usedPrefix}ʀᴇɢ <ɴᴏᴍʙʀᴇ ᴇᴅᴀᴅ>
-ര ׄ ☁️ ׅ ${usedPrefix}ᴜɴʀᴇɢ
-ര ׄ ☁️ ׅ ${usedPrefix}ᴍᴇɴᴜ
-ര ׄ ☁️ ׅ ${usedPrefix}ᴊᴜᴇɢᴏs
-ര ׄ ☁️ ׅ ${usedPrefix}ᴘɪɴɢ
-ര ׄ ☁️ ׅ ${usedPrefix}ɢʀᴜᴘᴏs
-ര ׄ ☁️ ׅ ${usedPrefix}ᴏᴡɴᴇʀ
-
-
-𓂂𓏸  𐅹੭੭   *\`𝖭𝗌ẜɯ\`* 🪼 ᦡᦡ
-
-ര ׄ 🪼 ׅ ${usedPrefix}ᴘᴀᴄᴋ
-ര ׄ 🪼 ׅ ${usedPrefix}ᴘᴇɴᴇᴛʀᴀʀ
-ര ׄ 🪼 ׅ ${usedPrefix}sᴇxᴏ
-ര ׄ 🪼 ׅ ${usedPrefix}ᴠɪᴏʟᴀʀ
-ര ׄ 🪼 ׅ ${usedPrefix}ғᴏʟʟᴀʀ
-
-
-𓂂𓏸  𐅹੭੭   *\`𝖥𝗎𝗇\`* 🌳 ᦡᦡ
-
-ര ׄ 🌳 ׅ ${usedPrefix}ᴛᴏᴘ <text>
-ര ׄ 🌳 ׅ ${usedPrefix}ɢᴀʏ
-ര ׄ 🌳 ׅ ${usedPrefix}ᴘᴀᴊᴇᴀᴍᴇ
-ര ׄ 🌳 ׅ ${usedPrefix}ᴅᴏxᴇᴏ @usuario
-ര ׄ 🌳 ׅ ${usedPrefix}ᴅᴏxᴜᴇʀ @usuario
-ര ׄ 🌳 ׅ ${usedPrefix}ғᴏʀᴍᴀʀᴘᴀʀᴇᴊᴀ
-ര ׄ 🌳 ׅ ${usedPrefix}ғᴏʀᴍᴀʀᴘᴀʀᴇᴊᴀ𝟻
-ര ׄ 🌳 ׅ ${usedPrefix}ʜᴜᴇᴠᴏ
-
-
-𓂂𓏸  𐅹੭੭   *\`𝖠𝗇ı𝗆ᧉ\`* 🥞 ᦡᦡ
-
-ര ׄ 🥞 ׅ ${usedPrefix}ᴋɪss
-ര ׄ 🥞 ׅ ${usedPrefix}ᴀɴɢʀʏ
-ര ׄ 🥞 ׅ ${usedPrefix}ʙɪᴛᴇ
-ര ׄ 🥞 ׅ ${usedPrefix}ɴᴏᴄʜᴇs
-ര ׄ 🥞 ׅ ${usedPrefix}ᴅɪ́ᴀs
-ര ׄ 🥞 ׅ ${usedPrefix}ᴄᴀғᴇ
-ര ׄ 🥞 ׅ ${usedPrefix}ᴄʀʏ
-ര ׄ 🥞 ׅ ${usedPrefix}ᴄᴜᴅᴅʟᴇ
-ര ׄ 🥞 ׅ ${usedPrefix}ʜᴀᴘᴘʏ
-ര ׄ 🥞 ׅ ${usedPrefix}ʜᴇʟʟᴏ
-ര ׄ 🥞 ׅ ${usedPrefix}ʟᴏʟɪ
-ര ׄ 🥞 ׅ ${usedPrefix}ʀᴡ
-ര ׄ 🥞 ׅ ${usedPrefix}ᴡ
-ര ׄ 🥞 ׅ ${usedPrefix}ʀᴇᴄʟᴀᴍᴀᴡᴀɪғᴜ
 
 
 𓂂𓏸  𐅹੭੭   *\`𝖣ᨣ𝗐𝗇𝗅ᨣ𝖺𝖽ᧉꭇ𝗌\`* 🍄 ᦡᦡ
@@ -153,35 +105,7 @@ _#code_
 ര ׄ 🧃 ׅ ${usedPrefix}sꜱᴡᴇʙ
 ര ׄ 🧃 ׅ ${usedPrefix}sᴘᴏᴛɪꜰʏ
 
-
-𓂂𓏸  𐅹੭੭   *\`𝗀ꭇ𝗎𝗉ᨣ𝗌\`* 🍯 ᦡᦡ
-
-ര ׄ 🍯 ׅ ${usedPrefix}ᴛᴀɢᴛᴇxᴛ
-ര ׄ 🍯 ׅ ${usedPrefix}ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ <@tag> <text>
-ര ׄ 🍯 ׅ ${usedPrefix}ᴘᴇʀғɪʟ
-ര ׄ 🍯 ׅ ${usedPrefix}ɢʀᴜᴘᴏᴄᴇʀʀᴀʀ
-ര ׄ 🍯 ׅ ${usedPrefix}ɢʀᴜᴘᴏᴀʙʀɪʀ
-ര ׄ 🍯 ׅ ${usedPrefix}ɪɴᴠᴏᴄᴀʀ 
-ര ׄ 🍯 ׅ ${usedPrefix}sᴇᴛᴘᴘɢʀᴜᴘᴏ 
-ര ׄ 🍯 ׅ ${usedPrefix}ᴋɪᴄᴋ <@tag>
-ര ׄ 🍯 ׅ ${usedPrefix}ᴛᴀɢ
-ര ׄ 🍯 ׅ ${usedPrefix}ᴅᴇʟ
-
-
-𓂂𓏸  𐅹੭੭   *\`𝖨𝗇ƚᧉ𝖨ı𝗀ᧉ𝗇𝖼ı𝖺𝗌\`* 🧋 ᦡᦡ
-
-ര ׄ 🧋 ׅ ${usedPrefix}ᴍᴀɢɪᴄsᴛᴜᴅɪᴏ <texto>
-ര ׄ 🧋 ׅ ${usedPrefix}ᴀɪ <texto>
-ര ׄ 🧋 ׅ ${usedPrefix}ᴡᴘᴡ
-ര ׄ 🧋 ׅ ${usedPrefix}ᴘᴏʟʟɪɴᴀᴛɪᴏɴs <texto>
-ര ׄ 🧋 ׅ ${usedPrefix}ɢᴇᴍɪɴɪ
-ര ׄ 🧋 ׅ ${usedPrefix}ʙɢʀᴇᴍᴏᴠᴇʀ <imagen>
-
-
-𓂂𓏸  𐅹੭੭   *\`𝖨𝗇ƚᧉꭇ𝗇ᧉƚ\`* 🍟 ᦡᦡ
-
-ര ׄ 🍟 ׅ ${usedPrefix}ɴɪᴍᴇɢᴀᴍᴇsᴇᴀʀᴄʜ
-ര ׄ 🍟 ׅ ${usedPrefix}ᴍᴇɪᴏ
+ ׄ 🍟 ׅ ${usedPrefix}ᴍᴇɪᴏ
     
     
 𓂂𓏸  𐅹੭੭   *\`𝖩𝖺𝖽ı-ᗷᨣƚ𝗌\`* 🍰 ᦡᦡ
@@ -208,10 +132,8 @@ _#code_
 𓂂𓏸  𐅹੭੭   *\`𝖳ᨣᨣ𝗅𝗌\`* 🍵 ᦡᦡ
 
 ര ׄ 🍵 ׅ ${usedPrefix}sᴛɪᴄᴋᴇʀsᴇᴀʀᴄʜ <text>
-ര ׄ 🍵 ׅ ${usedPrefix}ʀᴠᴏᴄᴀʟ <audio>
-ര ׄ 🍵 ׅ ${usedPrefix}ᴛᴏᴜʀʟ2
-ര ׄ 🍵 ׅ ${usedPrefix}ʜᴅ
-ര ׄ 🍵 ׅ ${usedPrefix}ᴛᴏᴜʀʟ <imagen>
+ര ׄ 🍵 ׅ ${usedPrefix}ʀᴠᴏᴄᴀʟ <audio> 🍵 ׅ ${usedPrefix}ʜᴅ
+
 `.trim()
 
     const menu = `${header}\n${body}`
