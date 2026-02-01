@@ -53,70 +53,14 @@ Utiliza *#qr* ó *#code*
 
 ✰ Lista de comandos:
 
-╭─⬣「 ✰DESCARGAS✰ 」⬣
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#facebook + <url>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#play + <texto>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#tiktok + <url>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#video + <texto>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#audiodoc
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#videodoc
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#ig  + <url>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#mediafire + <url>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#spotify + <url>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#anime
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#animedl
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#dl
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#
-│
-╰─⬣
-
-
-╭─⬣「 ✰BUSQUEDAS✰ 」⬣
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#pinterest + <texto>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#tiktoksearch + <texto>
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#tweetpost
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#wikipedia <búsqueda>
-╰─⬣
-
-╭─⬣「 ✰CONFIGURACIÓN✰ 」⬣
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antibot 
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antidelete
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antilink
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antilink2
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antiprivado
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antispam
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antisubbots
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antitoxic
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antitrabas
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#antiver
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#autoaceptar
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#autorechazar
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#autoresponder
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#autosticker
-╰─⬣
-
-╭─⬣「 ✰GRUPOS✰ 」⬣
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#promote
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#setbye
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#setwelcome
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#setprimary
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#tag
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#
-╰─⬣
-
-╭─⬣「 ✰TOOLS✰ 」⬣
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#s
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#qc
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#toimg
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#p
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#cbx
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#toghibli
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#imagedit
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#tofigure
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#hd
-│⁖ฺ۟̇࣪·֗٬̤⃟⚡#
-╰─⬣
+╭━━━〔 📜 𝗜𝗡𝗙𝗢 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〕━━━╮
+┃ ✦ menu | help | infobot
+┃ ✦ uptime | status | system
+┃ ✦ funciones | sc | serbot
+┃ ✦ speed | reporte | links | code
+┃ ✦ staff | bots | views
+┃ ✦ sug | ds | editautoresponder
+╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 
 > © Powered by Staff Mita Bot
 `.trim();
