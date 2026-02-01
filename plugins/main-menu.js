@@ -48,6 +48,14 @@ Utiliza *#qr* ó *#code*
 ✰ Lista de comandos:
 
 ╭━━━〔 📜 𝗜𝗡𝗙𝗢 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〕━━━╮
+┃ ✦ menu 
+┃ ✦ creador
+┃ ✦ code/qr
+┃ ✦ ping
+╰━━━━━━━━━━━━━━━━━━━━━━━━╯
+
+
+╭━━━〔 📜 𝗜𝗡𝗙𝗢 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〕━━━╮
 ┃ ✦ menu | help | infobot
 ┃ ✦ uptime | status | system
 ┃ ✦ funciones | sc | serbot
@@ -55,6 +63,19 @@ Utiliza *#qr* ó *#code*
 ┃ ✦ staff | bots | views
 ┃ ✦ sug | ds | editautoresponder
 ╰━━━━━━━━━━━━━━━━━━━━━━━━╯
+
+
+╭━━━〔 📜 𝗜𝗡𝗙𝗢 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 〕━━━╮
+┃ ✦ menu | help | infobot
+┃ ✦ uptime | status | system
+┃ ✦ funciones | sc | serbot
+┃ ✦ speed | reporte | links | code
+┃ ✦ staff | bots | views
+┃ ✦ sug | ds | editautoresponder
+╰━━━━━━━━━━━━━━━━━━━━━━━━╯
+
+
+
 
 > © Powered by Staff Mita Bot
 `.trim();
