@@ -7,7 +7,7 @@ let tags = {
   'main': 'INFO',
   'buscador': 'BUSQUEDAS',
   'serbot': 'SUB BOTS',
-  'downloader': 'DESCARGAS',
+  'descargas': 'DESCARGAS',
   'owner': 'CREADOR',
 }
 
