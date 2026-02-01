@@ -26,10 +26,12 @@ Hola *%name* soy *NAGI*
 ┗━━━━━━━━━━━━━━
 %readmore
 ┏━━━━━━━━ INFO - BOT
-┃  ✿︎ Cliente: %name
-┃  ✿︎ Exp: %exp
-┃  ✿︎ Nivel: %level
-┗━━━━━━━━━━━━━━
+┃  🫧 Cliente: %name
+┃  🫧Exp: %exp
+┃ 🫧 Nivel: %level
+┃ 🫧 owner: https://gabriel-rouge.vercel.app.
+┃ 🫧 descargas web: https://gabriel-downloader.vercel.app/
+┗━━━━━━━━━━━━━
 %readmore
 ┏━━━━━━━━━ INFO - USER
 ┃  ✿︎ Bot: NAGI Bot - MD 
