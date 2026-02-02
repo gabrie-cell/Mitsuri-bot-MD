@@ -133,8 +133,8 @@ await m.reply(`🪐 Error con las fuentes.\n${e.message}`)
 
 try {
 const apiUrl = tipo === 'mp3'
-      ? `https://api.stellarwa.xyz/dow/ytmp3?url=${encodeURIComponent(url)}&apikey=BrunoSobrino`
-      : `https://api.stellarwa.xyz/dow/ytmp4?url=${encodeURIComponent(url)}&apikey=BrunoSobrino`;
+      ? `https://api-sky.ultraplus.click`
+      : `https://api-sky.ultraplus.click`;
 
 const res = await fetch(apiUrl);
 const json = await res.json();
