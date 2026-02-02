@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 *⏱️ Duración:* ${video.timestamp}
 *👁️ Vistas:* ${video.views.toLocaleString()}
 *📅 Publicado:* ${video.ago}
-solamente funciona para el usuario que lo solicito uwu ^⁠_⁠^
+> IMPORTANTE :solamente funciona para el usuario que lo solicito uwu ^⁠_⁠^
 
 👇 *Selecciona una opción abajo:*
     `.trim()
