@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     ]
     let video = videos[Math.floor(Math.random() * videos.length)]
 const emojis = {
-  'main': '🎄', 'tools': '🧰', 'audio': '🎶', 'group': '🎁',
+  'main': '🎄', 'tools': '🧰', 'audio': '🎶', 'grupo': '🎁',
   'owner': '👑', 'fun': '🎮', 'info': '📘', 'internet': '🌐',
   'downloads': '⬇️', 'admin': '🧦', 'anime': '✨', 'nsfw': '🚫',
   'search': '🔍', 'sticker': '🖼️', 'game': '🕹️', 'premium': '💎', 'bot': '🤖'
