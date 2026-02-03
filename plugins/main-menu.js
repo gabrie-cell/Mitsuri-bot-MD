@@ -80,6 +80,7 @@ ${ucapan()} @${userId.split('@')[0]}
 🎉 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒: ${totalCommands}
 👥 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒: ${totalreg}
 ⏳ 𝐔𝐏𝐓𝐈𝐌𝐄: ${uptime}
+🥷 WEBS-NAGI: ${global.web}
 
 ────────────────
 ⏰ 🄵🄴🄲🄷🄰 🅈 🄷🄾🅁🄰 
@@ -96,14 +97,6 @@ BALDUINO-BOT • SISTEMA ACTIVO
 ${secciones}
 `.trim()
 
-const buttons = [
-      {
-        name: "quick_reply",
-        buttonParamsJson: JSON.stringify({
-          display_text: "💻code",
-          id: "1"
-        })
-      },
 
 await m.react('🏟️')
 
