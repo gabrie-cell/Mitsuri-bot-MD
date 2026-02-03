@@ -69,27 +69,26 @@ ${ucapan()} @${userId.split('@')[0]}
 ────────────────
 > 👤 INFO DEL USUARIO 
 ────────────────
-👤 𝐔𝐒𝐄𝐑: ${name}
-🗿 𝐄𝐗𝐏𝐄𝐑𝐈𝐄𝐍𝐂𝐈𝐀: ${exp}
+> 👤 𝐔𝐒𝐄𝐑: ${name}
+> 🗿 𝐄𝐗𝐏𝐄𝐑𝐈𝐄𝐍𝐂𝐈𝐀: ${exp}
 
 ────────────────
-> 💻 INFO DE NAGI MD
+> 💻 INFO DE NAGI • MD
 ────────────────
-🥭 𝐎𝐖𝐍𝐄𝐑: wa.me/${suittag}
-🎧 𝐄𝐒𝐓𝐀𝐃𝐎: ${(conn.user.jid == global.conn.user.jid ? 'BOT OFICIAL 🥭' : 'SUB BOT 🍐')}
-🎉 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒: ${totalCommands}
-👥 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒: ${totalreg}
-⏳ 𝐔𝐏𝐓𝐈𝐌𝐄: ${uptime}
-🥷 *WEBS-NAGI*: ${global.web}
-
+> 🥭 𝐎𝐖𝐍𝐄𝐑: wa.me/${suittag}
+> 🎧 𝐄𝐒𝐓𝐀𝐃𝐎: ${(conn.user.jid == global.conn.user.jid ? 'BOT OFICIAL 🥭' : 'SUB BOT 🍐')}
+> 🎉 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒: ${totalCommands}
+> 👥 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒: ${totalreg}
+> ⏳ 𝐔𝐏𝐓𝐈𝐌𝐄: ${uptime}
+> 🥷 *WEBS-NAGI*: ${global.web}
 ────────────────
 > ⏰ F E C H A = H O R A
 ───────────────
-🕝 𝐇𝐎𝐑𝐀: ${hora}
-📅 𝐅𝐄𝐂𝐇𝐀: ${fecha}
-🏙️ 𝐃𝐈𝐀: ${dia}
+> 🕝 𝐇𝐎𝐑𝐀: ${hora}
+  📅 𝐅𝐄𝐂𝐇𝐀: ${fecha}
+  🏙️ 𝐃𝐈𝐀: ${dia}
 ────────────────
-BALDUINO-BOT • SISTEMA ACTIVO
+> BALDUINO-BOT • SISTEMA ACTIVO
 © 2025 - 2026 Powered By gabzz-ux
 ────────────────
 > 📂 COMANDOS
