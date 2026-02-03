@@ -25,7 +25,7 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = "NAGI-BOT ^⁠_⁠^"
+global.botname = "NAGI-BOT "
 global.creador = "oculto"
 global.textbot = "Nagi, mᥲძᥱ ᥕі𝗍һ ᑲᥡ gabrie-ux"
 global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ gabrie-ux
