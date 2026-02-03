@@ -96,6 +96,15 @@ BALDUINO-BOT • SISTEMA ACTIVO
 ${secciones}
 `.trim()
 
+      const buttons = [
+      {
+        name: "quick_reply",
+        buttonParamsJson: JSON.stringify({
+          display_text: "💻code",
+          id: "1"
+        })
+      },
+
 await m.react('🏟️')
 
 await conn.sendMessage(
