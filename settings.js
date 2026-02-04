@@ -33,7 +33,7 @@ global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ gabrie-ux"
 global.etiqueta = "gabrie-ux"
 global.currency = "¥enes"
 global.web = "https://gabriel-downloader.vercel.app/"
-global.banner = "https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1742678744381.jpeg"
+global.banner = "https://raw.githubusercontent.com/the-xyzz/img/main/uploads/1770239514584.jpeg"
 global.icono = "https://files.catbox.moe/5gdy0v.jpg"
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
