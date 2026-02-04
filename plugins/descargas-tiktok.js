@@ -12,13 +12,13 @@ const handler = async (m, { conn, text, usedPrefix, command, args }) => {
       return conn.reply(m.chat, '⚠️ El contenido ya expiró.', m)
     }
 
-    await conn.reply(m.chat, '📤 Enviando video virtual de TikTok', m)
+    await conn.reply(m.chat, '*📤 Nagi está enviando video virtual de TikTok*', m)
 
     await conn.sendMessage(
       m.chat,
       {
         video: { url: data.play },
-        caption: '✔️ Video enviado'
+        caption: '*✔️ Video enviado*'
       },
       { quoted: m }
     )
