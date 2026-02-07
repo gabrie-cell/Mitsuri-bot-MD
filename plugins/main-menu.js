@@ -10,7 +10,7 @@ let tags = {
   'fun': '「JUEGOS」🍨',
   'serbot': '「SUB BOTS」🍨',
   'sticker': '「STICKERS」🍨',
-  'grupos': '「GRUPOS」🍨', 
+  'grupo': '「GRUPOS」🍨', 
   'downloader': '「DESCARGAS」🍨',
   'tools': '「HERRAMIENTAS」🍨',
   'info': '「INFORMACIÓN」🍨',
