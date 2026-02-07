@@ -23,7 +23,7 @@ let tags = {
   'logos': '「EDICION LOGOS」🍨', 
 }
 
-const vid = 'https://qu.ax/PoytO.mp4';
+const vid = 'https://raw.githubusercontent.com/JTxs00/uploads/main/1770496563839.mp4';
 
 const defaultMenu = {
   before: `*•:•:•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•*
