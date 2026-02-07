@@ -18,7 +18,7 @@ let tags = {
   'owner': '「CREADOR」🍨',
 }
 
-const vid = 'https://raw.githubusercontent.com/JTxs00/uploads/main/1770496563839.mp4';
+const vid = 'https://raw.githubusercontent.com/JTxs00/uploads/main/1770499142389.mp4';
 
 const defaultMenu = {
   before: `*•:•:•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•*
